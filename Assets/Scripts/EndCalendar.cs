@@ -6,6 +6,7 @@ public class EndCalendar : MonoBehaviour
 {
 
     public int count;
+    public GameObject vitoria; 
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +18,7 @@ public class EndCalendar : MonoBehaviour
     {
         if (count == 5)
         {
-            Debug.Log("Escreve");
+            vitoria.SetActive(true);
         }
     }
 }
