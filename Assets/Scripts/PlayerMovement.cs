@@ -7,8 +7,16 @@ public class PlayerMovement : MonoBehaviour
     private float turnSmoothVelocity; // Velocidade de suavização da rotação
 
     public Transform cameraTransform; // Referência para a câmera
+    public Animator animator;
 
-    void Update()
+
+	private void Start()
+	{
+		animator = GetComponent<Animator>();
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+	}
+	void Update()
     {
         // Obter as entradas de movimento
         float horizontal = Input.GetAxisRaw("Horizontal");
@@ -27,6 +35,9 @@ public class PlayerMovement : MonoBehaviour
             // Mover o personagem na direção desejada
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             transform.Translate(moveDir.normalized * speed * Time.deltaTime, Space.World);
+
+            animator.SetBool("Run", true);
         }
+        else{ animator.SetBool("Run", false); }
     }
 }
