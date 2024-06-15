@@ -13,8 +13,12 @@ public class DialogManager : MonoBehaviour
 
     private Queue<string> sentences;  // Fila de sentenças do diálogo atual
 
-    void Start()
+
+    ObjectActivator activator;
+	public bool NoGoFase;
+	void Start()
     {
+        activator = FindFirstObjectByType<ObjectActivator>();
         sentences = new Queue<string>();
         StartDialog(dialog);
     }
@@ -45,7 +49,14 @@ public class DialogManager : MonoBehaviour
 
     void EndDialog()
     {
-        SceneManager.LoadScene(sceneName);
+        if (!NoGoFase)
+        {
+            SceneManager.LoadScene(sceneName);
+        }
+        else 
+        {
+            activator.interactObject.SetActive(false);
+        }
     }
 
     void Update()

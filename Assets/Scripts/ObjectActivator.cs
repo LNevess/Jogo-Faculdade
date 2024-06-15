@@ -3,10 +3,10 @@ using UnityEngine;
 public class ObjectActivator : MonoBehaviour
 {
     [SerializeField] private GameObject targetObject; // Objeto alvo a ser ativado pela distância
-    [SerializeField] private GameObject interactObject; // Objeto alvo a ser ativado pela interação
+                     public GameObject interactObject; // Objeto alvo a ser ativado pela interação
     [SerializeField] private Transform player; // Referência ao jogador
     [SerializeField] private float activationDistance = 5.0f; // Distância para ativação
-    public Dialog dialog;//
+    public Dialog dialog;//    
 
     private bool isPlayerWithinDistance = false; // Estado para verificar se o jogador está dentro da distância
 
