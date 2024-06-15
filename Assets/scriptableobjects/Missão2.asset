@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 278c9eee1353e3641853c7191e6505be, type: 3}
+  m_Name: "Miss\xE3o2"
+  m_EditorClassIdentifier: 
+  sentences:
+  - "Ol\xE1 Joana! Alguns de nossos cursos ainda est\xE3o sem professores definidos.
+    \xC9 importante ter professores qualificados para cada mat\xE9ria para que nossos
+    alunos aprendam da melhor forma poss\xEDvel!"
+  - "Como coordenadora de curso, voc\xEA precisa assegurar que os cursos est\xE3o
+    sendo administrados da melhor forma."
+  - "V\xE1 at\xE9 a sala dos professores e veja quais mat\xE9rias precisam de professores,
+    depois procure no campus os professores qualificados para cada uma das mat\xE9rias
+    necessitadas."

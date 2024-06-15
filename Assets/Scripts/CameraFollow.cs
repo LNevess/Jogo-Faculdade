@@ -16,7 +16,7 @@ public class CameraFollow : MonoBehaviour
         // Se você quiser definir um deslocamento padrão
         if (offset == Vector3.zero)
         {
-            offset = new Vector3(0, 3, -5); // Ajuste estes valores conforme necessário
+            offset = new Vector3(0, 1, -3); // Ajuste estes valores conforme necessário
         }
 
         // Inicializa yaw e pitch com a rotação atual da câmera
