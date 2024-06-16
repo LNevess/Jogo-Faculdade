@@ -449,7 +449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a198ea3d3388fa04fa21f43832e7bf7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: SchoolSceneDay
+  sceneName: Fase 1
 --- !u!1001 &7468024507937006596
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -664,6 +664,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6744136178453222240, guid: 1715bdc1e41ecbc408f57a8d268e760d, type: 3}
       propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7452650678537279975, guid: 1715bdc1e41ecbc408f57a8d268e760d, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
