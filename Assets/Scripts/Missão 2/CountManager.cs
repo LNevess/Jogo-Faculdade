@@ -20,9 +20,11 @@ public class CountManager : MonoBehaviour
 	}
 	private void Update()
 	{
-		if (countProfessores == 8) 
+		if (countProfessores == 2) 
 		{
-			screenMake.SetActive(true);			
+			screenMake.SetActive(true);		
+			Cursor.visible = true;
+			Cursor.lockState = CursorLockMode.None;
 		}
 	}
 

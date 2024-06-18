@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Miss\xE3o 1.unity"
     guid: 80414089bf59a544a8153dd7f485de6b
+  - enabled: 1
+    path: Assets/Scenes/Fase 2.unity
+    guid: 158beae103aa88042807e3e1aaa55de6
+  - enabled: 1
+    path: "Assets/Scenes/Miss\xE3o 2.unity"
+    guid: 3ab04467a8336a148a66cf6cdaff9e07
   m_configObjects: {}

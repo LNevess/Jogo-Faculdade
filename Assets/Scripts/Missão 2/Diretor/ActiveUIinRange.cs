@@ -37,7 +37,17 @@ public class ActiveUIinRange : MonoBehaviour
 			{
 				countManager.countProfessores++;
 				jaContoUmaVezOK = true;
-			}	
+			}
+
+			StartCoroutine(InteractibleObjectDesactive());
 		}
+
+
 	}
+
+	IEnumerator InteractibleObjectDesactive () 
+	{ 
+		yield return new WaitForSeconds(5f);
+        interactObject.SetActive(false);
+    }
 }
