@@ -20,7 +20,7 @@ public class CountManager : MonoBehaviour
 	}
 	private void Update()
 	{
-		if (countProfessores == 2) 
+		if (countProfessores == 8) 
 		{
 			screenMake.SetActive(true);		
 			Cursor.visible = true;
