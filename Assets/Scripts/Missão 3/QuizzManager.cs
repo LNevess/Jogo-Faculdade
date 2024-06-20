@@ -115,7 +115,7 @@ public class QuizzManager : MonoBehaviour
 		{
 			TelaDerrota.SetActive(true);
 		}
-		else 
+		if (countGeral == 4)
 		{
 			TelaVitoria.SetActive(true);
 		}
@@ -155,7 +155,7 @@ public class QuizzManager : MonoBehaviour
 	{
 		if (erroProg || acertoProg) return;
 		acertoProg = true;
-		acertosIMGGameObject[0].SetActive(true);
+		acertosIMGGameObject[1].SetActive(true);
 		countAcerto++;
 		countGeral++;
 
@@ -168,7 +168,7 @@ public class QuizzManager : MonoBehaviour
 	{
 		if (erroProg || acertoProg) return;
 		erroProg = true;
-		errosIMGGameObject[0].SetActive(true);
+		errosIMGGameObject[1].SetActive(true);
 		countErros++;
 		countGeral++;
 
@@ -183,7 +183,7 @@ public class QuizzManager : MonoBehaviour
 	{
 		if (erroMat || acertoMat) return;
 		acertoMat = true;
-		acertosIMGGameObject[0].SetActive(true);
+		acertosIMGGameObject[2].SetActive(true);
 		countAcerto++;
 		countGeral++;
 
@@ -196,7 +196,7 @@ public class QuizzManager : MonoBehaviour
 	{
 		if (erroMat || acertoMat) return;
 		erroMat = true;
-		errosIMGGameObject[0].SetActive(true);
+		errosIMGGameObject[2].SetActive(true);
 		countErros++; 
 		countGeral++;
 
@@ -211,7 +211,7 @@ public class QuizzManager : MonoBehaviour
 	{
 		if (erroEtica || acertoEtica) return;
 		acertoEtica = true;
-		acertosIMGGameObject[0].SetActive(true);
+		acertosIMGGameObject[3].SetActive(true);
 		countAcerto++;
 		countGeral++;
 
@@ -224,7 +224,7 @@ public class QuizzManager : MonoBehaviour
 	{
 		if (erroEtica || acertoEtica) return;
 		erroEtica = true;
-		errosIMGGameObject[0].SetActive(true);
+		errosIMGGameObject[3].SetActive(true);
 		countErros++;
 		countGeral++;
 

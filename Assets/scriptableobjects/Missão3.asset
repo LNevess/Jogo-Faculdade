@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: "Miss\xE3o3"
   m_EditorClassIdentifier: 
   sentences:
-  - "Diretor Mario: \nEstamos na metade do primeiro semestre! Est\xE1 na hora de
-    avaliarmos como foi o desempenho de cada classe e apontarmos o que precisa ser
-    melhorado!"
+  - "Diretor Mario: \nEstamos no final do primeiro semestre! Est\xE1 na hora de avaliarmos
+    como foi o desempenho de cada classe e apontarmos o que precisa ser melhorado!"
   - "Como coordenador de curso, voc\xEA deve avaliar os pontos fortes e pontos fracos
     de cada classe e sugerir pontos que devem ser melhorados."

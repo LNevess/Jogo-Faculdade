@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Miss\xE3o 3.unity"
     guid: 6dd810b04a4074a418c6e9de44534ff6
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: 0c8e41cf8e99ddc4285dc80d54bca7d6
   m_configObjects: {}
