@@ -6,7 +6,8 @@ public class EndCalendar : MonoBehaviour
 {
 
     public int count;
-    public GameObject vitoria; 
+    public GameObject vitoria;
+    public GameObject[] calendarios;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +20,39 @@ public class EndCalendar : MonoBehaviour
     {
         if (count == 5)
         {
+            calendarios[0].SetActive(false);
+            calendarios[1].SetActive(true);
+        }
+
+        if (count == 10)
+        {
+            calendarios[1].SetActive(false);
+            calendarios[2].SetActive(true);
+        }
+
+        if (count == 15)
+        {
+            calendarios[2].SetActive(false);
+            calendarios[3].SetActive(true);
+        }
+
+        if (count == 20)
+        {
+            calendarios[3].SetActive(false);
+            calendarios[4].SetActive(true);
+        }
+
+        if (count == 25)
+        {
+            calendarios[4].SetActive(false);
+            calendarios[5].SetActive(true);
+        }
+
+        if (count == 30)
+        {
+            calendarios[5].SetActive(false);
             vitoria.SetActive(true);
         }
     }
 }
+

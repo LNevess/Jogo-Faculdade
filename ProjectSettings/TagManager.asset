@@ -10,6 +10,31 @@ TagManager:
   - 3
   - 4
   - 5
+  - mar1
+  - mar2
+  - mar3
+  - mar4
+  - mar5
+  - abr1
+  - abr2
+  - abr3
+  - abr4
+  - abr5
+  - mai1
+  - mai2
+  - mai3
+  - mai4
+  - mai5
+  - jun1
+  - jun2
+  - jun3
+  - jun4
+  - jun5
+  - jul2
+  - jul1
+  - jul3
+  - jul4
+  - jul5
   layers:
   - Default
   - TransparentFX
