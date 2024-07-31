@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: "Miss\xE3o3"
   m_EditorClassIdentifier: 
   sentences:
-  - "Diretor Mario: \nEstamos no final do primeiro semestre! Est\xE1 na hora de avaliarmos
-    como foi o desempenho de cada classe e apontarmos o que precisa ser melhorado!"
-  - "Como coordenador de curso, voc\xEA deve avaliar os pontos fortes e pontos fracos
-    de cada classe e sugerir pontos que devem ser melhorados."
+  - "Diretor Mario: \nAgora que os professores j\xE1 est\xE3o aptos a dar aulas,
+    devemos trabalhar os hor\xE1rios de suas aulas durante a semana."
+  - "Para fazer isso, voc\xEA deve encaixar os quadrados que representam as horas
+    de aula dos professores para a posi\xE7\xE3o correta na agenda."
+  - Cada quadrado representa 1 hora de aula. Cada professor deve dar 4 horas de aula
+    por semana.
+  - "No periodo da tarde, 2 professores v\xE3o dar 3 horas de aula e voc\xEA precisar
+    dar 2 horas de aula."

@@ -20,7 +20,7 @@ public class ObjectActivator : MonoBehaviour
         targetObject.SetActive(isPlayerWithinDistance);
 
         // Verifica se o jogador pressionou a tecla 'E' e está dentro da distância
-        if (isPlayerWithinDistance && Input.GetKeyDown(KeyCode.E))
+        if (isPlayerWithinDistance && Input.GetKeyDown(KeyCode.Space))
         {
             interactObject.SetActive(true);
             FindObjectOfType<DialogManager>().StartDialog(dialog);

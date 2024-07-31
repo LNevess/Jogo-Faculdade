@@ -30,18 +30,18 @@ public class ActiveUIinRange : MonoBehaviour
 		targetObject.SetActive(isPlayerWithinDistance);
 
 		// Verifica se o jogador pressionou a tecla 'E' e está dentro da distância
-		if (isPlayerWithinDistance && Input.GetKeyDown(KeyCode.E))
+		if (isPlayerWithinDistance && Input.GetKeyDown(KeyCode.Space))
 		{
 			interactObject.SetActive(true);
 			if (!jaContoUmaVezOK) 
 			{
-				countManager.countProfessores++;
+				Cursor.visible = true;
+				Cursor.lockState = CursorLockMode.None;
 				jaContoUmaVezOK = true;
 			}
 
 			StartCoroutine(InteractibleObjectDesactive());
 		}
-
 
 	}
 

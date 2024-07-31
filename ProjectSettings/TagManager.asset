@@ -35,6 +35,11 @@ TagManager:
   - jul3
   - jul4
   - jul5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
   layers:
   - Default
   - TransparentFX
