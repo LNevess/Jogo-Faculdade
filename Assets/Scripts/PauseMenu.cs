@@ -3,7 +3,8 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenuUI;
-    private bool isPaused = false;
+    public static bool isPaused = false;
+    
 
     void Update()
     {
@@ -46,4 +47,6 @@ public class PauseMenu : MonoBehaviour
         Debug.Log("Quitting game...");
         Application.Quit();
     }
+
+   
 }

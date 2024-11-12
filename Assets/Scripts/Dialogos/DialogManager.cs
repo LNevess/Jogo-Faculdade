@@ -11,6 +11,8 @@ public class DialogManager : MonoBehaviour
     public Dialog dialog;    // Referência ao diálogo que será exibido
     public string sceneName;
 
+    public bool isStarted;
+
     private Queue<string> sentences;  // Fila de sentenças do diálogo atual
 
 
@@ -20,12 +22,13 @@ public class DialogManager : MonoBehaviour
     {
         activator = FindFirstObjectByType<ObjectActivator>();
         sentences = new Queue<string>();
-        StartDialog(dialog);
+        //StartDialog(dialog);
     }
 
     public void StartDialog(Dialog dialog)
     {
         sentences.Clear();
+        isStarted = true;
 
         foreach (string sentence in dialog.sentences)
         {
@@ -37,6 +40,11 @@ public class DialogManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
+        if (PauseMenu.isPaused)
+        {
+            return;
+        }
+
         if (sentences.Count == 0)
         {
             EndDialog();
@@ -52,6 +60,7 @@ public class DialogManager : MonoBehaviour
         if (!NoGoFase)
         {
             SceneManager.LoadScene(sceneName);
+            print("bu");
         }
         else 
         {
@@ -62,7 +71,12 @@ public class DialogManager : MonoBehaviour
     void Update()
     {
         // Verifica se a tecla espaço ou o botão esquerdo do mouse foi pressionado para avançar o diálogo
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if (!isStarted)
+        {
+            return;
+        }
+
+        if (Input.GetButtonDown("Jump") || Input.GetMouseButtonDown(0))
         {
             DisplayNextSentence();
         }

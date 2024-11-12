@@ -170,6 +170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 112882239}
   - component: {fileID: 112882238}
+  - component: {fileID: 112882240}
   m_Layer: 0
   m_Name: Not For Nothing Otis McDonald iDubbbzTV & Ethan and Hila Soundtrack (320)
   m_TagString: Untagged
@@ -288,6 +289,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &112882240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112882237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 286059da007a1724694154c5f4915f21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicSource: {fileID: 112882238}
 --- !u!1 &167569180
 GameObject:
   m_ObjectHideFlags: 0

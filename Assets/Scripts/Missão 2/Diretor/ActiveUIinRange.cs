@@ -47,7 +47,7 @@ public class ActiveUIinRange : MonoBehaviour
 
 	IEnumerator InteractibleObjectDesactive () 
 	{ 
-		yield return new WaitForSeconds(5f);
+		yield return new WaitForSeconds(3f);
         interactObject.SetActive(false);
     }
 }
