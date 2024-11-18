@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 
 /// <summary>
@@ -12,7 +14,13 @@ public class yesorno : MonoBehaviour
     bool isyes;
     public int numberProf;
 
-    public void YES(bool isCorrect)
+    public Image buttonImage;
+
+	private void Start()
+	{
+		buttonImage = GetComponent<Image>();
+	}
+	public void YES(bool isCorrect)
     {
         if (isyes) return;
 
@@ -22,6 +30,8 @@ public class yesorno : MonoBehaviour
          
             isyes = true;
             Debug.Log(CountManager.Instance.countProfessores);
+
+            buttonImage.color = Color.green;
         }
 
         if (!isCorrect)
@@ -29,7 +39,8 @@ public class yesorno : MonoBehaviour
             CountManager.Instance.countErrosProfessores++;
             CountManager.Instance.errors[numberProf].SetActive(true);
             isyes = true;
-        }
+			buttonImage.color = Color.red;
+		}
 
     }
 
