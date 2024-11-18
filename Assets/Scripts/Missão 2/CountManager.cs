@@ -21,7 +21,7 @@ public class CountManager : MonoBehaviour
 
     private void Awake()
     {
-			Instance = this;
+		Instance = this;
     }
 
     private void Start()
@@ -48,7 +48,24 @@ public class CountManager : MonoBehaviour
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
         }
-    }
+
+		if (countErrosProfessores == 1)
+		{
+			errors[0].SetActive(true);
+		}
+		if (countErrosProfessores ==2)
+		{
+			errors[1].SetActive(true);
+		}
+		if (countErrosProfessores == 3)
+		{
+			errors[2].SetActive(true);
+		}
+		if (countErrosProfessores == 4)
+		{
+			errors[3].SetActive(true);
+		}
+	}
 
 	public void GOTO(string nameScene) 
 	{
