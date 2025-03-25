@@ -10,7 +10,8 @@ public class CountManager : MonoBehaviour
     public static CountManager Instance;
 	public int countProfessores;
 	public int countErrosProfessores;
-	
+	public XpBarAnimator1 xpAnimator;
+
 	public bool mineGameOn;
 
 
@@ -22,13 +23,20 @@ public class CountManager : MonoBehaviour
     private void Awake()
     {
 		Instance = this;
-    }
+		Cursor.visible = true;
+		Cursor.lockState = CursorLockMode.None;
+
+	}
 
     private void Start()
 	{
 		mineGameOn = false;
+
 		screenMake.SetActive(false);
 		screenError.SetActive(false);
+
+		Cursor.visible = true;
+		Cursor.lockState = CursorLockMode.None;
 
 		for (int i = 0; i < errors.Length; i++)
 		{
@@ -39,7 +47,8 @@ public class CountManager : MonoBehaviour
 	{
 		if (countProfessores == 8) 
 		{
-			screenMake.SetActive(true);		
+			screenMake.SetActive(true);
+			xpAnimator.StartXPAnimation(1f);
 		}
 
         if (countErrosProfessores == 4)

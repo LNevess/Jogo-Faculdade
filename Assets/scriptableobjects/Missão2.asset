@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: "Miss\xE3o2"
   m_EditorClassIdentifier: 
   sentences:
+  - 
   - "Ol\xE1 Joana! Alguns de nossos cursos ainda est\xE3o sem professores definidos.
     \xC9 importante ter professores qualificados para cada mat\xE9ria para que nossos
     alunos aprendam da melhor forma poss\xEDvel!"
   - "Como coordenadora de curso, voc\xEA precisa assegurar que os cursos est\xE3o
     sendo administrados da melhor forma."
-  - "V\xE1 at\xE9 o corredor e colha o curriculo dos professores. Ent\xE3o veja suas
-    compet\xEAncias e compare com a tabela ao lado."
+  - "Observe o curriculo dos professores. Ent\xE3o veja suas compet\xEAncias e compare
+    com a tabela ao lado."
   - "Os professores aptos a trabalharem na escola s\xE3o os que tem as mesmas compet\xEAncias
     apresentadas na tabela. Professores que N\xC3O est\xE3o aptos possuem compet\xEAncias
     que n\xE3o est\xE3o na tabela."
-  - Tente contratar todos os 8 professores aptos!
+  - Tente contratar todos os professores aptos!

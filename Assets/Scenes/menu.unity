@@ -584,7 +584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a198ea3d3388fa04fa21f43832e7bf7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Fase 1
+  sceneName: Inicio
 --- !u!114 &627599761 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1569559015397911981, guid: f85f16d3097a908469185cb9cff9c40c, type: 3}

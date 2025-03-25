@@ -8,8 +8,9 @@ public class EndHorario : MonoBehaviour
 public int count;
 public GameObject vitoria;
 public GameObject[] calendarios;
-// Start is called before the first frame update
-void Start()
+public XpBarAnimator1 xpAnimator;
+    // Start is called before the first frame update
+    void Start()
 {
     Cursor.visible = true;
     Cursor.lockState = CursorLockMode.None;
@@ -28,6 +29,7 @@ void Update()
     {
         calendarios[1].SetActive(false);
         vitoria.SetActive(true);
+        xpAnimator.StartXPAnimation(1f);
     }
 
     }

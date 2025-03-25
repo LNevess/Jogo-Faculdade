@@ -13,22 +13,8 @@ MonoBehaviour:
   m_Name: "Miss\xE3o1"
   m_EditorClassIdentifier: 
   sentences:
-  - "Ol\xE1 Joana! Bem vinda a Escola Para\xEDso. Eu sou o Mario, diretor da escola.
-    Fico feliz em te receber como nossa Coordenadora Pedag\xF3gica."
-  - "Antes de come\xE7armos o ano letivo, gostaria de explicar detalhadamente a fun\xE7\xE3o
-    do coordenador pedag\xF3gico, pois sei que \xE9 essencial entendermos como essa
-    posi\xE7\xE3o pode nos ajudar a melhorar nosso trabalho e, consequentemente,
-    o desempenho dos nossos alunos."
-  - "Como coordenador pedag\xF3gico, voc\xEA \xE9 uma pe\xE7a chave na nossa equipe
-    escolar. Voc\xEA ter\xE1 a responsabilidade de articular, acompanhar e avaliar
-    o processo de ensino e aprendizagem, al\xE9m de ser um elo fundamental entre
-    a gest\xE3o escolar e os professores. "
-  - "Isso significa que voc\xEA trabalhar\xE1 diretamente com outros professores
-    para garantir que nossas pr\xE1ticas pedag\xF3gicas sejam eficazes e que estejam
-    alinhadas com os objetivos educacionais da nossa escola."
-  - "Aqui est\xE1 uma lista de suas atribui\xE7\xF5es: "
-  - "Apoio aos Professores, planejar e implementar programas de forma\xE7\xE3o, Avalia\xE7\xE3o
-    do Processo Educacional, Articula\xE7\xE3o do Curr\xEDculo, Apoio Emocional e
-    Motivacional."
-  - "Agora que entendeu a sua fun\xE7\xE3o e atribui\xE7\xF5es, come\xE7aremos o
-    ano letivo!"
+  - 
+  - "Ol\xE1 Joana! Antes de iniciar o ano letivo, devemos separar, organizar e atribuir
+    os dias de aula para cada mat\xE9ria para esse semestre."
+  - "Clique nas formas de cada materia e arraste para o local correto no calend\xE1rio,
+    preenchendo todos os dias do m\xEAs."

@@ -7,6 +7,7 @@ public class EndMissao2 : MonoBehaviour
 
     public int count;
     public GameObject vitoria;
+    public XpBarAnimator1 xpAnimator;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,7 @@ public class EndMissao2 : MonoBehaviour
         if (count == 4)
         {
             vitoria.SetActive(true);
+            xpAnimator.StartXPAnimation(1f); // Exemplo: preenche a barra até 75%
         }
     }
 

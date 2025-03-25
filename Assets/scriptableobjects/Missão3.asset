@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: "Miss\xE3o3"
   m_EditorClassIdentifier: 
   sentences:
-  - "Diretor Mario: \nAgora que os professores j\xE1 est\xE3o aptos a dar aulas,
-    devemos trabalhar os hor\xE1rios de suas aulas durante a semana."
+  - 
+  - "Agora que os professores j\xE1 est\xE3o aptos a dar aulas, devemos trabalhar
+    os hor\xE1rios de suas aulas durante a semana."
   - "Para fazer isso, voc\xEA deve encaixar os quadrados que representam as horas
     de aula dos professores para a posi\xE7\xE3o correta na agenda."
   - Cada quadrado representa 1 hora de aula. Cada professor deve dar 4 horas de aula

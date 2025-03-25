@@ -8,11 +8,13 @@ public class EndCalendar : MonoBehaviour
     public int count;
     public GameObject vitoria;
     public GameObject[] calendarios;
+    public XpBarAnimator1 xpAnimator;
     // Start is called before the first frame update
     void Start()
     {
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
+        
     }
 
     // Update is called once per frame
@@ -52,6 +54,7 @@ public class EndCalendar : MonoBehaviour
         {
             calendarios[5].SetActive(false);
             vitoria.SetActive(true);
+            xpAnimator.StartXPAnimation(1f); // Exemplo: preenche a barra até 75%
         }
     }
 }

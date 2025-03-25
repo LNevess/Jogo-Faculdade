@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/menu.unity
     guid: a5a32b70c5cb6c34b87143b66fbcedf8
   - enabled: 1
+    path: Assets/Scenes/Inicio.unity
+    guid: cad5410c3a4a8dd42928e959ef05d288
+  - enabled: 1
     path: Assets/Scenes/Fase 1.unity
     guid: 076838d0bc273ec44a4bd5a183753c76
   - enabled: 1
@@ -16,9 +19,12 @@ EditorBuildSettings:
     guid: 80414089bf59a544a8153dd7f485de6b
   - enabled: 1
     path: Assets/Scenes/Fase 2.unity
-    guid: 158beae103aa88042807e3e1aaa55de6
+    guid: 147ac43349d44c348a0c455b312b563d
   - enabled: 1
     path: "Assets/Scenes/Miss\xE3o 2.unity"
+    guid: 158beae103aa88042807e3e1aaa55de6
+  - enabled: 0
+    path: "Assets/Scenes/Miss\xE3o 2 antiga.unity"
     guid: 3ab04467a8336a148a66cf6cdaff9e07
   - enabled: 1
     path: Assets/Scenes/Fase 3.unity

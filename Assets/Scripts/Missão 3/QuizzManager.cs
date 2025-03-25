@@ -12,10 +12,11 @@ public class QuizzManager : MonoBehaviour
 	public GameObject[] acertosIMGGameObject;
 	[Header("Erros IMG")]
 	public GameObject[] errosIMGGameObject;
+	public XpBarAnimator1 xpAnimator;
 
 
-	int countAcerto, countErros;
-	int countGeral;
+	public int countAcerto, countErros;
+	public int countGeral;
 
 	[Space(2)]
 	#region DESIGN
@@ -115,9 +116,10 @@ public class QuizzManager : MonoBehaviour
 		{
 			TelaDerrota.SetActive(true);
 		}
-		if (countGeral == 4)
+		if (countGeral == 4 && countErros == 0)
 		{
 			TelaVitoria.SetActive(true);
+			xpAnimator.StartXPAnimation(1f);
 		}
 
 
